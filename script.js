@@ -74,7 +74,7 @@ function checkSavings() {
 checkSavings();
 
 function chooseOptExpenses() {
-    for (let i = 0, n = 3; i < n; i++) {
+    for (let i = 1, n = 4; i < n; i++) {
         let answerOptExpenses = prompt("Статья необязательных расходов?", "");
 
         if ( answerOptExpenses != null && answerOptExpenses != '' ) {
